@@ -5,10 +5,16 @@
 **Added:**
 - bpk-component-modal:
   - Modal now supports theming.
+  
 - bpk-component-close-button:
   - Close button now supports theming.
+
 - bpk-react-utils:
   - Portal now accepts a `renderTarget` DOM element to render the portal in.
+
+- bpk-component-banner-alert:
+  - New `dismissable` configuration. See https://backpack.github.io/components/web/banner-alerts
+  - New animations available when `show` is toggled. See https://backpack.github.io/components/web/banner-alerts
 
 ## 2017-11-30 - New Drawer component and theming support for calendar
 
