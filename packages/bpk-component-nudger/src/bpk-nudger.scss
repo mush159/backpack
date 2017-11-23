@@ -37,7 +37,7 @@
   }
 
   &__icon {
-    fill: $bpk-button-secondary-color;
+    @include bpk-themeable-property(fill, --bpk-button-secondary-text-color, $bpk-button-secondary-color)
 
     &--disabled {
       fill: $bpk-button-disabled-color;

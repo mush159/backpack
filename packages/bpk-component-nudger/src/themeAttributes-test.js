@@ -16,8 +16,20 @@
  * limitations under the License.
  */
 
-import BpkNudger from './src/BpkNudger';
-import themeAttributes from './src/themeAttributes';
+import themeAttributes from './themeAttributes';
 
-export default BpkNudger;
-export { themeAttributes };
+describe('themeAttributes', () => {
+  it('exports the expected themeAttributes', () => {
+    expect(themeAttributes).toEqual([
+      'buttonSecondaryBackgroundColor',
+      'buttonSecondaryBorderColor',
+      'buttonSecondaryTextColor',
+      'buttonSecondaryBackgroundHoverColor',
+      'buttonSecondaryBorderHoverColor',
+      'buttonSecondaryTextHoverColor',
+      'buttonSecondaryActiveHoverColor',
+      'buttonSecondaryActiveHoverColor',
+      'buttonSecondaryActiveHoverColor',
+    ]);
+  });
+});

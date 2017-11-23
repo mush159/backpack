@@ -16,8 +16,14 @@
  * limitations under the License.
  */
 
-import BpkNudger from './src/BpkNudger';
-import themeAttributes from './src/themeAttributes';
-
-export default BpkNudger;
-export { themeAttributes };
+export default [
+  'buttonSecondaryBackgroundColor',
+  'buttonSecondaryBorderColor',
+  'buttonSecondaryTextColor',
+  'buttonSecondaryBackgroundHoverColor',
+  'buttonSecondaryBorderHoverColor',
+  'buttonSecondaryTextHoverColor',
+  'buttonSecondaryActiveHoverColor',
+  'buttonSecondaryActiveHoverColor',
+  'buttonSecondaryActiveHoverColor',
+];
