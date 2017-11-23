@@ -20,24 +20,30 @@ import React, { Component } from 'react';
 import { storiesOf } from '@storybook/react';
 
 import BpkSelect from 'bpk-component-select';
+import BpkLink, { themeAttributes as linkThemeAttributes } from 'bpk-component-link';
 
 import {
-  colorBlue100,
+  colorBlue400,
   colorBlue500,
-  colorRed100,
+  colorBlue600,
+  colorBlue800,
+  colorRed400,
   colorRed500,
-  colorYellow100,
+  colorRed600,
+  colorRed800,
+  colorYellow400,
   colorYellow500,
+  colorYellow600,
+  colorYellow800,
 } from 'bpk-tokens/tokens/base.es6';
 
 import BpkThemeProvider from './index';
-import BpkThemeableText, {
-  themeAttributes as buttonThemeAttributes,
-} from './bpk-themeable-text/BpkThemeableText';
 
-const generateThemeAttributes = (textColor, textBackgroundColor) => ({
-  textColor,
-  textBackgroundColor,
+const generateThemeAttributes = (linkTextColor, linkHoverColor, linkActiveColor, linkVisitedColor) => ({
+  // linkTextColor,
+  // linkHoverColor,
+  // linkActiveColor,
+  // linkVisitedColor,
 });
 
 
@@ -45,9 +51,9 @@ class BpkThemePicker extends Component {
   constructor(props) {
     super(props);
     this.themes = {
-      blue: generateThemeAttributes(colorBlue500, colorBlue100),
-      yellow: generateThemeAttributes(colorYellow500, colorYellow100),
-      red: generateThemeAttributes(colorRed500, colorRed100),
+      blue: generateThemeAttributes(colorBlue500, colorBlue400, colorBlue600, colorBlue800),
+      yellow: generateThemeAttributes(colorYellow500, colorYellow400, colorYellow600, colorYellow800),
+      red: generateThemeAttributes(colorRed500, colorRed400, colorRed600, colorRed800),
     };
     this.state = {
       themeId: 'blue',
@@ -77,8 +83,8 @@ class BpkThemePicker extends Component {
           <option value="yellow">Yellow</option>
           <option value="red">Red</option>
         </BpkSelect>
-        <BpkThemeProvider theme={this.state.theme} themeAttributes={[...buttonThemeAttributes]}>
-          <BpkThemeableText>Hello world</BpkThemeableText>
+        <BpkThemeProvider theme={this.state.theme} themeAttributes={[...linkThemeAttributes]}>
+          <BpkLink onClick={() => {}}>Choose flight</BpkLink>
         </BpkThemeProvider>
       </div>
     );
