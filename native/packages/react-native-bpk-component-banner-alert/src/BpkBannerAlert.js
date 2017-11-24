@@ -68,7 +68,6 @@ const styles = StyleSheet.create({
     flexGrow: 1,
     display: 'flex',
     flexDirection: 'row',
-    alignItems: 'center',
     paddingBottom: spacingSm,
     paddingLeft: spacingMd,
     paddingRight: spacingMd,
@@ -82,7 +81,7 @@ const styles = StyleSheet.create({
     width: ((2 * spacingMd) + spacingBase),
     display: 'flex',
     flexDirection: 'row',
-    alignItems: 'center',
+    paddingTop: spacingSm,
     justifyContent: 'center',
   },
   expandedChildContainer: {
