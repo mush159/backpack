@@ -62,7 +62,6 @@ exports[`Android BpkBannerAlert should accept user-stlying 1`] = `
                   Array [
                     Array [
                       Object {
-                        "alignItems": "center",
                         "display": "flex",
                         "flexDirection": "row",
                         "flexGrow": 1,
@@ -192,7 +191,6 @@ exports[`Android BpkBannerAlert should accept user-stlying 1`] = `
                   Array [
                     Array [
                       Object {
-                        "alignItems": "center",
                         "display": "flex",
                         "flexDirection": "row",
                         "flexGrow": 1,
@@ -322,7 +320,6 @@ exports[`Android BpkBannerAlert should accept user-stlying 1`] = `
                   Array [
                     Array [
                       Object {
-                        "alignItems": "center",
                         "display": "flex",
                         "flexDirection": "row",
                         "flexGrow": 1,
@@ -452,7 +449,6 @@ exports[`Android BpkBannerAlert should accept user-stlying 1`] = `
                   Array [
                     Array [
                       Object {
-                        "alignItems": "center",
                         "display": "flex",
                         "flexDirection": "row",
                         "flexGrow": 1,
@@ -594,7 +590,6 @@ exports[`Android BpkBannerAlert should render correctly 1`] = `
                   Array [
                     Array [
                       Object {
-                        "alignItems": "center",
                         "display": "flex",
                         "flexDirection": "row",
                         "flexGrow": 1,
@@ -731,7 +726,6 @@ exports[`Android BpkBannerAlert should render correctly 1`] = `
                   Array [
                     Array [
                       Object {
-                        "alignItems": "center",
                         "display": "flex",
                         "flexDirection": "row",
                         "flexGrow": 1,
@@ -868,7 +862,6 @@ exports[`Android BpkBannerAlert should render correctly 1`] = `
                   Array [
                     Array [
                       Object {
-                        "alignItems": "center",
                         "display": "flex",
                         "flexDirection": "row",
                         "flexGrow": 1,
@@ -1005,7 +998,6 @@ exports[`Android BpkBannerAlert should render correctly 1`] = `
                   Array [
                     Array [
                       Object {
-                        "alignItems": "center",
                         "display": "flex",
                         "flexDirection": "row",
                         "flexGrow": 1,
@@ -1147,7 +1139,6 @@ exports[`Android BpkBannerAlert should render correctly dismissable 1`] = `
                   Array [
                     Array [
                       Object {
-                        "alignItems": "center",
                         "display": "flex",
                         "flexDirection": "row",
                         "flexGrow": 1,
@@ -1230,11 +1221,11 @@ exports[`Android BpkBannerAlert should render correctly dismissable 1`] = `
                 onStartShouldSetResponder={[Function]}
                 style={
                   Object {
-                    "alignItems": "center",
                     "display": "flex",
                     "flexDirection": "row",
                     "height": "100%",
                     "justifyContent": "center",
+                    "paddingTop": 4,
                     "width": 32,
                   }
                 }
@@ -1357,7 +1348,6 @@ exports[`Android BpkBannerAlert should render correctly dismissable 1`] = `
                   Array [
                     Array [
                       Object {
-                        "alignItems": "center",
                         "display": "flex",
                         "flexDirection": "row",
                         "flexGrow": 1,
@@ -1440,11 +1430,11 @@ exports[`Android BpkBannerAlert should render correctly dismissable 1`] = `
                 onStartShouldSetResponder={[Function]}
                 style={
                   Object {
-                    "alignItems": "center",
                     "display": "flex",
                     "flexDirection": "row",
                     "height": "100%",
                     "justifyContent": "center",
+                    "paddingTop": 4,
                     "width": 32,
                   }
                 }
@@ -1567,7 +1557,6 @@ exports[`Android BpkBannerAlert should render correctly dismissable 1`] = `
                   Array [
                     Array [
                       Object {
-                        "alignItems": "center",
                         "display": "flex",
                         "flexDirection": "row",
                         "flexGrow": 1,
@@ -1650,11 +1639,11 @@ exports[`Android BpkBannerAlert should render correctly dismissable 1`] = `
                 onStartShouldSetResponder={[Function]}
                 style={
                   Object {
-                    "alignItems": "center",
                     "display": "flex",
                     "flexDirection": "row",
                     "height": "100%",
                     "justifyContent": "center",
+                    "paddingTop": 4,
                     "width": 32,
                   }
                 }
@@ -1777,7 +1766,6 @@ exports[`Android BpkBannerAlert should render correctly dismissable 1`] = `
                   Array [
                     Array [
                       Object {
-                        "alignItems": "center",
                         "display": "flex",
                         "flexDirection": "row",
                         "flexGrow": 1,
@@ -1860,11 +1848,11 @@ exports[`Android BpkBannerAlert should render correctly dismissable 1`] = `
                 onStartShouldSetResponder={[Function]}
                 style={
                   Object {
-                    "alignItems": "center",
                     "display": "flex",
                     "flexDirection": "row",
                     "height": "100%",
                     "justifyContent": "center",
+                    "paddingTop": 4,
                     "width": 32,
                   }
                 }
@@ -2016,7 +2004,6 @@ exports[`Android BpkBannerAlert should render correctly expandable 1`] = `
                     Array [
                       Array [
                         Object {
-                          "alignItems": "center",
                           "display": "flex",
                           "flexDirection": "row",
                           "flexGrow": 1,
@@ -2219,7 +2206,6 @@ exports[`Android BpkBannerAlert should render correctly expandable 1`] = `
                     Array [
                       Array [
                         Object {
-                          "alignItems": "center",
                           "display": "flex",
                           "flexDirection": "row",
                           "flexGrow": 1,
@@ -2422,7 +2408,6 @@ exports[`Android BpkBannerAlert should render correctly expandable 1`] = `
                     Array [
                       Array [
                         Object {
-                          "alignItems": "center",
                           "display": "flex",
                           "flexDirection": "row",
                           "flexGrow": 1,
@@ -2625,7 +2610,6 @@ exports[`Android BpkBannerAlert should render correctly expandable 1`] = `
                     Array [
                       Array [
                         Object {
-                          "alignItems": "center",
                           "display": "flex",
                           "flexDirection": "row",
                           "flexGrow": 1,
@@ -2833,7 +2817,6 @@ exports[`Android BpkBannerAlert should render correctly expanded 1`] = `
                     Array [
                       Array [
                         Object {
-                          "alignItems": "center",
                           "display": "flex",
                           "flexDirection": "row",
                           "flexGrow": 1,
@@ -3084,7 +3067,6 @@ exports[`Android BpkBannerAlert should render correctly expanded 1`] = `
                     Array [
                       Array [
                         Object {
-                          "alignItems": "center",
                           "display": "flex",
                           "flexDirection": "row",
                           "flexGrow": 1,
@@ -3335,7 +3317,6 @@ exports[`Android BpkBannerAlert should render correctly expanded 1`] = `
                     Array [
                       Array [
                         Object {
-                          "alignItems": "center",
                           "display": "flex",
                           "flexDirection": "row",
                           "flexGrow": 1,
@@ -3586,7 +3567,6 @@ exports[`Android BpkBannerAlert should render correctly expanded 1`] = `
                     Array [
                       Array [
                         Object {
-                          "alignItems": "center",
                           "display": "flex",
                           "flexDirection": "row",
                           "flexGrow": 1,
@@ -3842,7 +3822,6 @@ exports[`Android BpkBannerAlert should render correctly long text 1`] = `
                     Array [
                       Array [
                         Object {
-                          "alignItems": "center",
                           "display": "flex",
                           "flexDirection": "row",
                           "flexGrow": 1,
@@ -4093,7 +4072,6 @@ exports[`Android BpkBannerAlert should render correctly long text 1`] = `
                     Array [
                       Array [
                         Object {
-                          "alignItems": "center",
                           "display": "flex",
                           "flexDirection": "row",
                           "flexGrow": 1,
@@ -4344,7 +4322,6 @@ exports[`Android BpkBannerAlert should render correctly long text 1`] = `
                     Array [
                       Array [
                         Object {
-                          "alignItems": "center",
                           "display": "flex",
                           "flexDirection": "row",
                           "flexGrow": 1,
@@ -4595,7 +4572,6 @@ exports[`Android BpkBannerAlert should render correctly long text 1`] = `
                     Array [
                       Array [
                         Object {
-                          "alignItems": "center",
                           "display": "flex",
                           "flexDirection": "row",
                           "flexGrow": 1,
