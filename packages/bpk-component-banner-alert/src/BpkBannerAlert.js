@@ -170,12 +170,14 @@ class BpkBannerAlert extends Component {
               </span>
           ) : null}
             {dismissable ? (
-              <BpkCloseButton
-                className={getClassName('bpk-banner-alert__toggle-button')}
-                onClick={this.onDismiss}
-                aria-label={dismissButtonLabel}
-                label={dismissButtonLabel}
-              />
+              <span className={getClassName('bpk-banner-alert__toggle')}>
+                <BpkCloseButton
+                  className={getClassName('bpk-banner-alert__toggle-button')}
+                  onClick={this.onDismiss}
+                  aria-label={dismissButtonLabel}
+                  label={dismissButtonLabel}
+                />
+              </span>
             ) : null}
           </header>
           <BpkAnimateHeight duration={parseInt(durationSm, 10)} height={showChildren ? 'auto' : 0}>
