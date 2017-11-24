@@ -23,10 +23,10 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: 'center',
-    padding: spacingBase,
+    padding: TOKENS.spacingBase,
   },
   bannerAlert: {
-    marginBottom: spacingBase,
+    marginBottom: TOKENS.spacingBase,
   }
 });
 
@@ -39,11 +39,11 @@ export default class App extends Component {
       expanded: false,
     };
 
-    this.onDismissablePress = this.onDismissablePress.bind(this);
+    this.onDismiss = this.onDismiss.bind(this);
     this.onExpandablePress = this.onExpandablePress.bind(this);
   }
 
-  onDismissablePress() {
+  onDismiss() {
     this.setState({ showDismissable: false });
   }
 
@@ -63,16 +63,17 @@ export default class App extends Component {
           style={styles.bannerAlert}
           type={ALERT_TYPES.WARN}
           message={translationHelper.translate('WARN_MESSAGE')}
-          actionButtonLabel="Dismiss"
-          onAction={this.onDismissablePress}
-          dismissable={this.state.showDismissable}
+          dismissButonLabel="Dismiss"
+          onDismiss={this.onDismiss}
+          dismissable
+          show={this.state.showDismissable}
         />
         <BpkBannerAlert
           style={styles.bannerAlert}
           type={ALERT_TYPES.ERROR}
           message={translationHelper.translate('ERROR_MESSAGE')}
-          actionButtonLabel={translationHelper.translate('EXPAND')}
-          onAction={this.onExpandablePress}
+          toggleExpandedButtonLabel={translationHelper.translate('EXPAND')}
+          onToggleExpanded={this.onExpandablePress}
           expanded={this.state.expanded}
         >
           <BpkText textStyle="sm" style={styles.child}>
@@ -89,12 +90,17 @@ export default class App extends Component {
 
 ## Props
 
-| Property           | PropType            | Required | Default Value |
-| ------------------ | ------------------- | -------- | ------------- |
-| message            | string              | yes      | -             |
-| type               | oneOf(ALERT_TYPES)  | yes      | -             |
-| actionButtonLabel  | string              | no       | null          |
-| children           | node                | no       | null          |
-| dismissable        | bool                | no       | false         |
-| expanded           | bool                | no       | false         |
-| onAction           | func                | no       | () => null    |
+| Property                  | PropType           | Required | Default Value |
+| ------------------------- | ------------------ | -------- | ------------- |
+| message                   | string             | yes      | -             |
+| type                      | oneOf(ALERT_TYPES) | yes      | -             |
+| animateOnEnter            | bool               | no       | false         |
+| animateOnLeave            | bool               | no       | false         |
+| children                  | node               | no       | null          |
+| dismissable               | bool               | no       | false         |
+| dismissButonLabel         | String             | no       | null          |
+| expanded                  | bool               | no       | false         |
+| onDismiss                 | func               | no       | null          |
+| onToggleExpanded          | func               | no       | null          |
+| show                      | bool               | no       | true          |
+| toggleExpandedButtonLabel | String             | no       | null          |
