@@ -134,14 +134,16 @@ class AnimateAndFade extends Component {
 }
 
 AnimateAndFade.propTypes = {
-  animateOnEnter: PropTypes.bool.isRequired,
-  animateOnLeave: PropTypes.bool.isRequired,
+  animateOnEnter: PropTypes.bool,
+  animateOnLeave: PropTypes.bool,
   children: PropTypes.node.isRequired,
   show: PropTypes.bool.isRequired,
   className: PropTypes.string,
 };
 
 AnimateAndFade.defaultProps = {
+  animateOnEnter: false,
+  animateOnLeave: false,
   className: null,
 };
 
