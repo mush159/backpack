@@ -18,32 +18,15 @@
 
 import {
   View,
-  Platform,
   StyleSheet,
-  TouchableHighlight,
 } from 'react-native';
 import React from 'react';
 import PropTypes from 'prop-types';
-import { setOpacity } from 'bpk-tokens';
 import BpkText from 'react-native-bpk-component-text';
 import BpkIcon from 'react-native-bpk-component-icon';
 import BpkAnimateHeight from 'react-native-bpk-component-animate-height';
 
-import { dismissablePropType } from './customPropTypes';
-import AnimateAndFade from './AnimateAndFade';
-
-const tokens = Platform.select({
-  ios: () => require('bpk-tokens/tokens/ios/base.react.native.common.js'), // eslint-disable-line global-require
-  android: () => require('bpk-tokens/tokens/android/base.react.native.common.js'), // eslint-disable-line global-require
-})();
-
-// Slight darkness to use when buttons are pressed in.
-const underlayColor = Platform.select({
-  ios: () => setOpacity(tokens.underlayColor, tokens.underlayOpacity),
-  android: () => null,
-})();
-
-const {
+import {
   borderRadiusSm,
   borderSizeSm,
   colorGray300,
@@ -56,7 +39,11 @@ const {
   spacingMd,
   spacingSm,
   spacingXl,
-} = tokens;
+} from 'bpk-tokens/tokens/base.react.native';
+
+import { dismissablePropType } from './customPropTypes';
+import AnimateAndFade from './AnimateAndFade';
+import BpkTouchableOverlay from 'react-native-bpk-component-touchable-overlay';
 
 export const ALERT_TYPES = {
   SUCCESS: 'success',
@@ -222,21 +209,19 @@ const BpkBannerAlert = (props) => {
       >
         <View style={styles.bannerContainer} >
           {expandable ? (
-            <TouchableHighlight
+            <BpkTouchableOverlay
               accessibilityComponentType="button"
               onPress={onToggleExpanded}
-              underlayColor={underlayColor}
               accessibilityLabel={toggleExpandedButtonLabel}
               style={styles.bannerContainer}
             >
               {banner}
-            </TouchableHighlight>
+            </BpkTouchableOverlay>
         ) : banner}
           {dismissable && (
-          <TouchableHighlight
+          <BpkTouchableOverlay
             accessibilityComponentType="button"
             onPress={onDismiss}
-            underlayColor={underlayColor}
             accessibilityLabel={dismissButonLabel}
             style={styles.closeButtonContainer}
           >
@@ -247,7 +232,7 @@ const BpkBannerAlert = (props) => {
                 small
               />
             </View>
-          </TouchableHighlight>
+          </BpkTouchableOverlay>
         )}
         </View>
         <BpkAnimateHeight expanded={expanded}>
