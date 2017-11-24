@@ -40,10 +40,10 @@ import {
   spacingSm,
   spacingXl,
 } from 'bpk-tokens/tokens/base.react.native';
+import BpkTouchableOverlay from 'react-native-bpk-component-touchable-overlay';
 
 import { dismissablePropType } from './customPropTypes';
 import AnimateAndFade from './AnimateAndFade';
-import BpkTouchableOverlay from 'react-native-bpk-component-touchable-overlay';
 
 export const ALERT_TYPES = {
   SUCCESS: 'success',
