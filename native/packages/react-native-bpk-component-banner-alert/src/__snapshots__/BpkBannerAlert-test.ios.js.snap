@@ -68,7 +68,6 @@ exports[`iOS BpkBannerAlert should accept user-stlying 1`] = `
                         "paddingBottom": 4,
                         "paddingLeft": 8,
                         "paddingRight": 8,
-                        "paddingTop": 7,
                       },
                     ],
                   ]
@@ -91,9 +90,14 @@ exports[`iOS BpkBannerAlert should accept user-stlying 1`] = `
                         "fontSize": 16,
                         "lineHeight": 16,
                       },
-                      Object {
-                        "color": "rgb(129, 123, 143)",
-                      },
+                      Array [
+                        Object {
+                          "paddingTop": 7,
+                        },
+                        Object {
+                          "color": "rgb(129, 123, 143)",
+                        },
+                      ],
                     ]
                   }
                 >
@@ -118,6 +122,7 @@ exports[`iOS BpkBannerAlert should accept user-stlying 1`] = `
                         "flex": 1,
                         "flexGrow": 1,
                         "paddingLeft": 4,
+                        "paddingTop": 6,
                       },
                     ]
                   }
@@ -197,7 +202,6 @@ exports[`iOS BpkBannerAlert should accept user-stlying 1`] = `
                         "paddingBottom": 4,
                         "paddingLeft": 8,
                         "paddingRight": 8,
-                        "paddingTop": 7,
                       },
                     ],
                   ]
@@ -220,9 +224,14 @@ exports[`iOS BpkBannerAlert should accept user-stlying 1`] = `
                         "fontSize": 16,
                         "lineHeight": 16,
                       },
-                      Object {
-                        "color": "rgb(0, 215, 117)",
-                      },
+                      Array [
+                        Object {
+                          "paddingTop": 7,
+                        },
+                        Object {
+                          "color": "rgb(0, 215, 117)",
+                        },
+                      ],
                     ]
                   }
                 >
@@ -247,6 +256,7 @@ exports[`iOS BpkBannerAlert should accept user-stlying 1`] = `
                         "flex": 1,
                         "flexGrow": 1,
                         "paddingLeft": 4,
+                        "paddingTop": 6,
                       },
                     ]
                   }
@@ -326,7 +336,6 @@ exports[`iOS BpkBannerAlert should accept user-stlying 1`] = `
                         "paddingBottom": 4,
                         "paddingLeft": 8,
                         "paddingRight": 8,
-                        "paddingTop": 7,
                       },
                     ],
                   ]
@@ -349,9 +358,14 @@ exports[`iOS BpkBannerAlert should accept user-stlying 1`] = `
                         "fontSize": 16,
                         "lineHeight": 16,
                       },
-                      Object {
-                        "color": "rgb(255, 187, 0)",
-                      },
+                      Array [
+                        Object {
+                          "paddingTop": 7,
+                        },
+                        Object {
+                          "color": "rgb(255, 187, 0)",
+                        },
+                      ],
                     ]
                   }
                 >
@@ -376,6 +390,7 @@ exports[`iOS BpkBannerAlert should accept user-stlying 1`] = `
                         "flex": 1,
                         "flexGrow": 1,
                         "paddingLeft": 4,
+                        "paddingTop": 6,
                       },
                     ]
                   }
@@ -455,7 +470,6 @@ exports[`iOS BpkBannerAlert should accept user-stlying 1`] = `
                         "paddingBottom": 4,
                         "paddingLeft": 8,
                         "paddingRight": 8,
-                        "paddingTop": 7,
                       },
                     ],
                   ]
@@ -478,9 +492,14 @@ exports[`iOS BpkBannerAlert should accept user-stlying 1`] = `
                         "fontSize": 16,
                         "lineHeight": 16,
                       },
-                      Object {
-                        "color": "rgb(255, 84, 82)",
-                      },
+                      Array [
+                        Object {
+                          "paddingTop": 7,
+                        },
+                        Object {
+                          "color": "rgb(255, 84, 82)",
+                        },
+                      ],
                     ]
                   }
                 >
@@ -505,6 +524,7 @@ exports[`iOS BpkBannerAlert should accept user-stlying 1`] = `
                         "flex": 1,
                         "flexGrow": 1,
                         "paddingLeft": 4,
+                        "paddingTop": 6,
                       },
                     ]
                   }
@@ -596,7 +616,6 @@ exports[`iOS BpkBannerAlert should render correctly 1`] = `
                         "paddingBottom": 4,
                         "paddingLeft": 8,
                         "paddingRight": 8,
-                        "paddingTop": 7,
                       },
                     ],
                   ]
@@ -619,9 +638,14 @@ exports[`iOS BpkBannerAlert should render correctly 1`] = `
                         "fontSize": 16,
                         "lineHeight": 16,
                       },
-                      Object {
-                        "color": "rgb(129, 123, 143)",
-                      },
+                      Array [
+                        Object {
+                          "paddingTop": 7,
+                        },
+                        Object {
+                          "color": "rgb(129, 123, 143)",
+                        },
+                      ],
                     ]
                   }
                 >
@@ -646,6 +670,7 @@ exports[`iOS BpkBannerAlert should render correctly 1`] = `
                         "flex": 1,
                         "flexGrow": 1,
                         "paddingLeft": 4,
+                        "paddingTop": 6,
                       },
                     ]
                   }
@@ -732,7 +757,6 @@ exports[`iOS BpkBannerAlert should render correctly 1`] = `
                         "paddingBottom": 4,
                         "paddingLeft": 8,
                         "paddingRight": 8,
-                        "paddingTop": 7,
                       },
                     ],
                   ]
@@ -755,9 +779,14 @@ exports[`iOS BpkBannerAlert should render correctly 1`] = `
                         "fontSize": 16,
                         "lineHeight": 16,
                       },
-                      Object {
-                        "color": "rgb(0, 215, 117)",
-                      },
+                      Array [
+                        Object {
+                          "paddingTop": 7,
+                        },
+                        Object {
+                          "color": "rgb(0, 215, 117)",
+                        },
+                      ],
                     ]
                   }
                 >
@@ -782,6 +811,7 @@ exports[`iOS BpkBannerAlert should render correctly 1`] = `
                         "flex": 1,
                         "flexGrow": 1,
                         "paddingLeft": 4,
+                        "paddingTop": 6,
                       },
                     ]
                   }
@@ -868,7 +898,6 @@ exports[`iOS BpkBannerAlert should render correctly 1`] = `
                         "paddingBottom": 4,
                         "paddingLeft": 8,
                         "paddingRight": 8,
-                        "paddingTop": 7,
                       },
                     ],
                   ]
@@ -891,9 +920,14 @@ exports[`iOS BpkBannerAlert should render correctly 1`] = `
                         "fontSize": 16,
                         "lineHeight": 16,
                       },
-                      Object {
-                        "color": "rgb(255, 187, 0)",
-                      },
+                      Array [
+                        Object {
+                          "paddingTop": 7,
+                        },
+                        Object {
+                          "color": "rgb(255, 187, 0)",
+                        },
+                      ],
                     ]
                   }
                 >
@@ -918,6 +952,7 @@ exports[`iOS BpkBannerAlert should render correctly 1`] = `
                         "flex": 1,
                         "flexGrow": 1,
                         "paddingLeft": 4,
+                        "paddingTop": 6,
                       },
                     ]
                   }
@@ -1004,7 +1039,6 @@ exports[`iOS BpkBannerAlert should render correctly 1`] = `
                         "paddingBottom": 4,
                         "paddingLeft": 8,
                         "paddingRight": 8,
-                        "paddingTop": 7,
                       },
                     ],
                   ]
@@ -1027,9 +1061,14 @@ exports[`iOS BpkBannerAlert should render correctly 1`] = `
                         "fontSize": 16,
                         "lineHeight": 16,
                       },
-                      Object {
-                        "color": "rgb(255, 84, 82)",
-                      },
+                      Array [
+                        Object {
+                          "paddingTop": 7,
+                        },
+                        Object {
+                          "color": "rgb(255, 84, 82)",
+                        },
+                      ],
                     ]
                   }
                 >
@@ -1054,6 +1093,7 @@ exports[`iOS BpkBannerAlert should render correctly 1`] = `
                         "flex": 1,
                         "flexGrow": 1,
                         "paddingLeft": 4,
+                        "paddingTop": 6,
                       },
                     ]
                   }
@@ -1145,7 +1185,6 @@ exports[`iOS BpkBannerAlert should render correctly dismissable 1`] = `
                         "paddingBottom": 4,
                         "paddingLeft": 8,
                         "paddingRight": 8,
-                        "paddingTop": 7,
                       },
                       Object {
                         "paddingRight": 0,
@@ -1171,9 +1210,14 @@ exports[`iOS BpkBannerAlert should render correctly dismissable 1`] = `
                         "fontSize": 16,
                         "lineHeight": 16,
                       },
-                      Object {
-                        "color": "rgb(129, 123, 143)",
-                      },
+                      Array [
+                        Object {
+                          "paddingTop": 7,
+                        },
+                        Object {
+                          "color": "rgb(129, 123, 143)",
+                        },
+                      ],
                     ]
                   }
                 >
@@ -1198,6 +1242,7 @@ exports[`iOS BpkBannerAlert should render correctly dismissable 1`] = `
                         "flex": 1,
                         "flexGrow": 1,
                         "paddingLeft": 4,
+                        "paddingTop": 6,
                       },
                     ]
                   }
@@ -1225,7 +1270,6 @@ exports[`iOS BpkBannerAlert should render correctly dismissable 1`] = `
                     "flexDirection": "row",
                     "height": "100%",
                     "justifyContent": "center",
-                    "paddingTop": 7,
                     "width": 32,
                   }
                 }
@@ -1249,9 +1293,14 @@ exports[`iOS BpkBannerAlert should render correctly dismissable 1`] = `
                           "fontSize": 16,
                           "lineHeight": 16,
                         },
-                        Object {
-                          "color": "rgb(129, 123, 143)",
-                        },
+                        Array [
+                          Object {
+                            "paddingTop": 7,
+                          },
+                          Object {
+                            "color": "rgb(129, 123, 143)",
+                          },
+                        ],
                       ]
                     }
                   >
@@ -1354,7 +1403,6 @@ exports[`iOS BpkBannerAlert should render correctly dismissable 1`] = `
                         "paddingBottom": 4,
                         "paddingLeft": 8,
                         "paddingRight": 8,
-                        "paddingTop": 7,
                       },
                       Object {
                         "paddingRight": 0,
@@ -1380,9 +1428,14 @@ exports[`iOS BpkBannerAlert should render correctly dismissable 1`] = `
                         "fontSize": 16,
                         "lineHeight": 16,
                       },
-                      Object {
-                        "color": "rgb(0, 215, 117)",
-                      },
+                      Array [
+                        Object {
+                          "paddingTop": 7,
+                        },
+                        Object {
+                          "color": "rgb(0, 215, 117)",
+                        },
+                      ],
                     ]
                   }
                 >
@@ -1407,6 +1460,7 @@ exports[`iOS BpkBannerAlert should render correctly dismissable 1`] = `
                         "flex": 1,
                         "flexGrow": 1,
                         "paddingLeft": 4,
+                        "paddingTop": 6,
                       },
                     ]
                   }
@@ -1434,7 +1488,6 @@ exports[`iOS BpkBannerAlert should render correctly dismissable 1`] = `
                     "flexDirection": "row",
                     "height": "100%",
                     "justifyContent": "center",
-                    "paddingTop": 7,
                     "width": 32,
                   }
                 }
@@ -1458,9 +1511,14 @@ exports[`iOS BpkBannerAlert should render correctly dismissable 1`] = `
                           "fontSize": 16,
                           "lineHeight": 16,
                         },
-                        Object {
-                          "color": "rgb(129, 123, 143)",
-                        },
+                        Array [
+                          Object {
+                            "paddingTop": 7,
+                          },
+                          Object {
+                            "color": "rgb(129, 123, 143)",
+                          },
+                        ],
                       ]
                     }
                   >
@@ -1563,7 +1621,6 @@ exports[`iOS BpkBannerAlert should render correctly dismissable 1`] = `
                         "paddingBottom": 4,
                         "paddingLeft": 8,
                         "paddingRight": 8,
-                        "paddingTop": 7,
                       },
                       Object {
                         "paddingRight": 0,
@@ -1589,9 +1646,14 @@ exports[`iOS BpkBannerAlert should render correctly dismissable 1`] = `
                         "fontSize": 16,
                         "lineHeight": 16,
                       },
-                      Object {
-                        "color": "rgb(255, 187, 0)",
-                      },
+                      Array [
+                        Object {
+                          "paddingTop": 7,
+                        },
+                        Object {
+                          "color": "rgb(255, 187, 0)",
+                        },
+                      ],
                     ]
                   }
                 >
@@ -1616,6 +1678,7 @@ exports[`iOS BpkBannerAlert should render correctly dismissable 1`] = `
                         "flex": 1,
                         "flexGrow": 1,
                         "paddingLeft": 4,
+                        "paddingTop": 6,
                       },
                     ]
                   }
@@ -1643,7 +1706,6 @@ exports[`iOS BpkBannerAlert should render correctly dismissable 1`] = `
                     "flexDirection": "row",
                     "height": "100%",
                     "justifyContent": "center",
-                    "paddingTop": 7,
                     "width": 32,
                   }
                 }
@@ -1667,9 +1729,14 @@ exports[`iOS BpkBannerAlert should render correctly dismissable 1`] = `
                           "fontSize": 16,
                           "lineHeight": 16,
                         },
-                        Object {
-                          "color": "rgb(129, 123, 143)",
-                        },
+                        Array [
+                          Object {
+                            "paddingTop": 7,
+                          },
+                          Object {
+                            "color": "rgb(129, 123, 143)",
+                          },
+                        ],
                       ]
                     }
                   >
@@ -1772,7 +1839,6 @@ exports[`iOS BpkBannerAlert should render correctly dismissable 1`] = `
                         "paddingBottom": 4,
                         "paddingLeft": 8,
                         "paddingRight": 8,
-                        "paddingTop": 7,
                       },
                       Object {
                         "paddingRight": 0,
@@ -1798,9 +1864,14 @@ exports[`iOS BpkBannerAlert should render correctly dismissable 1`] = `
                         "fontSize": 16,
                         "lineHeight": 16,
                       },
-                      Object {
-                        "color": "rgb(255, 84, 82)",
-                      },
+                      Array [
+                        Object {
+                          "paddingTop": 7,
+                        },
+                        Object {
+                          "color": "rgb(255, 84, 82)",
+                        },
+                      ],
                     ]
                   }
                 >
@@ -1825,6 +1896,7 @@ exports[`iOS BpkBannerAlert should render correctly dismissable 1`] = `
                         "flex": 1,
                         "flexGrow": 1,
                         "paddingLeft": 4,
+                        "paddingTop": 6,
                       },
                     ]
                   }
@@ -1852,7 +1924,6 @@ exports[`iOS BpkBannerAlert should render correctly dismissable 1`] = `
                     "flexDirection": "row",
                     "height": "100%",
                     "justifyContent": "center",
-                    "paddingTop": 7,
                     "width": 32,
                   }
                 }
@@ -1876,9 +1947,14 @@ exports[`iOS BpkBannerAlert should render correctly dismissable 1`] = `
                           "fontSize": 16,
                           "lineHeight": 16,
                         },
-                        Object {
-                          "color": "rgb(129, 123, 143)",
-                        },
+                        Array [
+                          Object {
+                            "paddingTop": 7,
+                          },
+                          Object {
+                            "color": "rgb(129, 123, 143)",
+                          },
+                        ],
                       ]
                     }
                   >
@@ -2010,7 +2086,6 @@ exports[`iOS BpkBannerAlert should render correctly expandable 1`] = `
                           "paddingBottom": 4,
                           "paddingLeft": 8,
                           "paddingRight": 8,
-                          "paddingTop": 7,
                         },
                       ],
                     ]
@@ -2033,9 +2108,14 @@ exports[`iOS BpkBannerAlert should render correctly expandable 1`] = `
                           "fontSize": 16,
                           "lineHeight": 16,
                         },
-                        Object {
-                          "color": "rgb(129, 123, 143)",
-                        },
+                        Array [
+                          Object {
+                            "paddingTop": 7,
+                          },
+                          Object {
+                            "color": "rgb(129, 123, 143)",
+                          },
+                        ],
                       ]
                     }
                   >
@@ -2060,6 +2140,7 @@ exports[`iOS BpkBannerAlert should render correctly expandable 1`] = `
                           "flex": 1,
                           "flexGrow": 1,
                           "paddingLeft": 4,
+                          "paddingTop": 6,
                         },
                       ]
                     }
@@ -2083,9 +2164,14 @@ exports[`iOS BpkBannerAlert should render correctly expandable 1`] = `
                           "fontSize": 16,
                           "lineHeight": 16,
                         },
-                        Object {
-                          "color": "rgb(82, 76, 97)",
-                        },
+                        Array [
+                          Object {
+                            "paddingTop": 7,
+                          },
+                          Object {
+                            "color": "rgb(82, 76, 97)",
+                          },
+                        ],
                       ]
                     }
                   >
@@ -2212,7 +2298,6 @@ exports[`iOS BpkBannerAlert should render correctly expandable 1`] = `
                           "paddingBottom": 4,
                           "paddingLeft": 8,
                           "paddingRight": 8,
-                          "paddingTop": 7,
                         },
                       ],
                     ]
@@ -2235,9 +2320,14 @@ exports[`iOS BpkBannerAlert should render correctly expandable 1`] = `
                           "fontSize": 16,
                           "lineHeight": 16,
                         },
-                        Object {
-                          "color": "rgb(0, 215, 117)",
-                        },
+                        Array [
+                          Object {
+                            "paddingTop": 7,
+                          },
+                          Object {
+                            "color": "rgb(0, 215, 117)",
+                          },
+                        ],
                       ]
                     }
                   >
@@ -2262,6 +2352,7 @@ exports[`iOS BpkBannerAlert should render correctly expandable 1`] = `
                           "flex": 1,
                           "flexGrow": 1,
                           "paddingLeft": 4,
+                          "paddingTop": 6,
                         },
                       ]
                     }
@@ -2285,9 +2376,14 @@ exports[`iOS BpkBannerAlert should render correctly expandable 1`] = `
                           "fontSize": 16,
                           "lineHeight": 16,
                         },
-                        Object {
-                          "color": "rgb(82, 76, 97)",
-                        },
+                        Array [
+                          Object {
+                            "paddingTop": 7,
+                          },
+                          Object {
+                            "color": "rgb(82, 76, 97)",
+                          },
+                        ],
                       ]
                     }
                   >
@@ -2414,7 +2510,6 @@ exports[`iOS BpkBannerAlert should render correctly expandable 1`] = `
                           "paddingBottom": 4,
                           "paddingLeft": 8,
                           "paddingRight": 8,
-                          "paddingTop": 7,
                         },
                       ],
                     ]
@@ -2437,9 +2532,14 @@ exports[`iOS BpkBannerAlert should render correctly expandable 1`] = `
                           "fontSize": 16,
                           "lineHeight": 16,
                         },
-                        Object {
-                          "color": "rgb(255, 187, 0)",
-                        },
+                        Array [
+                          Object {
+                            "paddingTop": 7,
+                          },
+                          Object {
+                            "color": "rgb(255, 187, 0)",
+                          },
+                        ],
                       ]
                     }
                   >
@@ -2464,6 +2564,7 @@ exports[`iOS BpkBannerAlert should render correctly expandable 1`] = `
                           "flex": 1,
                           "flexGrow": 1,
                           "paddingLeft": 4,
+                          "paddingTop": 6,
                         },
                       ]
                     }
@@ -2487,9 +2588,14 @@ exports[`iOS BpkBannerAlert should render correctly expandable 1`] = `
                           "fontSize": 16,
                           "lineHeight": 16,
                         },
-                        Object {
-                          "color": "rgb(82, 76, 97)",
-                        },
+                        Array [
+                          Object {
+                            "paddingTop": 7,
+                          },
+                          Object {
+                            "color": "rgb(82, 76, 97)",
+                          },
+                        ],
                       ]
                     }
                   >
@@ -2616,7 +2722,6 @@ exports[`iOS BpkBannerAlert should render correctly expandable 1`] = `
                           "paddingBottom": 4,
                           "paddingLeft": 8,
                           "paddingRight": 8,
-                          "paddingTop": 7,
                         },
                       ],
                     ]
@@ -2639,9 +2744,14 @@ exports[`iOS BpkBannerAlert should render correctly expandable 1`] = `
                           "fontSize": 16,
                           "lineHeight": 16,
                         },
-                        Object {
-                          "color": "rgb(255, 84, 82)",
-                        },
+                        Array [
+                          Object {
+                            "paddingTop": 7,
+                          },
+                          Object {
+                            "color": "rgb(255, 84, 82)",
+                          },
+                        ],
                       ]
                     }
                   >
@@ -2666,6 +2776,7 @@ exports[`iOS BpkBannerAlert should render correctly expandable 1`] = `
                           "flex": 1,
                           "flexGrow": 1,
                           "paddingLeft": 4,
+                          "paddingTop": 6,
                         },
                       ]
                     }
@@ -2689,9 +2800,14 @@ exports[`iOS BpkBannerAlert should render correctly expandable 1`] = `
                           "fontSize": 16,
                           "lineHeight": 16,
                         },
-                        Object {
-                          "color": "rgb(82, 76, 97)",
-                        },
+                        Array [
+                          Object {
+                            "paddingTop": 7,
+                          },
+                          Object {
+                            "color": "rgb(82, 76, 97)",
+                          },
+                        ],
                       ]
                     }
                   >
@@ -2823,7 +2939,6 @@ exports[`iOS BpkBannerAlert should render correctly expanded 1`] = `
                           "paddingBottom": 4,
                           "paddingLeft": 8,
                           "paddingRight": 8,
-                          "paddingTop": 7,
                         },
                       ],
                     ]
@@ -2846,9 +2961,14 @@ exports[`iOS BpkBannerAlert should render correctly expanded 1`] = `
                           "fontSize": 16,
                           "lineHeight": 16,
                         },
-                        Object {
-                          "color": "rgb(129, 123, 143)",
-                        },
+                        Array [
+                          Object {
+                            "paddingTop": 7,
+                          },
+                          Object {
+                            "color": "rgb(129, 123, 143)",
+                          },
+                        ],
                       ]
                     }
                   >
@@ -2873,6 +2993,7 @@ exports[`iOS BpkBannerAlert should render correctly expanded 1`] = `
                           "flex": 1,
                           "flexGrow": 1,
                           "paddingLeft": 4,
+                          "paddingTop": 6,
                         },
                       ]
                     }
@@ -2896,9 +3017,14 @@ exports[`iOS BpkBannerAlert should render correctly expanded 1`] = `
                           "fontSize": 16,
                           "lineHeight": 16,
                         },
-                        Object {
-                          "color": "rgb(82, 76, 97)",
-                        },
+                        Array [
+                          Object {
+                            "paddingTop": 7,
+                          },
+                          Object {
+                            "color": "rgb(82, 76, 97)",
+                          },
+                        ],
                       ]
                     }
                   >
@@ -3073,7 +3199,6 @@ exports[`iOS BpkBannerAlert should render correctly expanded 1`] = `
                           "paddingBottom": 4,
                           "paddingLeft": 8,
                           "paddingRight": 8,
-                          "paddingTop": 7,
                         },
                       ],
                     ]
@@ -3096,9 +3221,14 @@ exports[`iOS BpkBannerAlert should render correctly expanded 1`] = `
                           "fontSize": 16,
                           "lineHeight": 16,
                         },
-                        Object {
-                          "color": "rgb(0, 215, 117)",
-                        },
+                        Array [
+                          Object {
+                            "paddingTop": 7,
+                          },
+                          Object {
+                            "color": "rgb(0, 215, 117)",
+                          },
+                        ],
                       ]
                     }
                   >
@@ -3123,6 +3253,7 @@ exports[`iOS BpkBannerAlert should render correctly expanded 1`] = `
                           "flex": 1,
                           "flexGrow": 1,
                           "paddingLeft": 4,
+                          "paddingTop": 6,
                         },
                       ]
                     }
@@ -3146,9 +3277,14 @@ exports[`iOS BpkBannerAlert should render correctly expanded 1`] = `
                           "fontSize": 16,
                           "lineHeight": 16,
                         },
-                        Object {
-                          "color": "rgb(82, 76, 97)",
-                        },
+                        Array [
+                          Object {
+                            "paddingTop": 7,
+                          },
+                          Object {
+                            "color": "rgb(82, 76, 97)",
+                          },
+                        ],
                       ]
                     }
                   >
@@ -3323,7 +3459,6 @@ exports[`iOS BpkBannerAlert should render correctly expanded 1`] = `
                           "paddingBottom": 4,
                           "paddingLeft": 8,
                           "paddingRight": 8,
-                          "paddingTop": 7,
                         },
                       ],
                     ]
@@ -3346,9 +3481,14 @@ exports[`iOS BpkBannerAlert should render correctly expanded 1`] = `
                           "fontSize": 16,
                           "lineHeight": 16,
                         },
-                        Object {
-                          "color": "rgb(255, 187, 0)",
-                        },
+                        Array [
+                          Object {
+                            "paddingTop": 7,
+                          },
+                          Object {
+                            "color": "rgb(255, 187, 0)",
+                          },
+                        ],
                       ]
                     }
                   >
@@ -3373,6 +3513,7 @@ exports[`iOS BpkBannerAlert should render correctly expanded 1`] = `
                           "flex": 1,
                           "flexGrow": 1,
                           "paddingLeft": 4,
+                          "paddingTop": 6,
                         },
                       ]
                     }
@@ -3396,9 +3537,14 @@ exports[`iOS BpkBannerAlert should render correctly expanded 1`] = `
                           "fontSize": 16,
                           "lineHeight": 16,
                         },
-                        Object {
-                          "color": "rgb(82, 76, 97)",
-                        },
+                        Array [
+                          Object {
+                            "paddingTop": 7,
+                          },
+                          Object {
+                            "color": "rgb(82, 76, 97)",
+                          },
+                        ],
                       ]
                     }
                   >
@@ -3573,7 +3719,6 @@ exports[`iOS BpkBannerAlert should render correctly expanded 1`] = `
                           "paddingBottom": 4,
                           "paddingLeft": 8,
                           "paddingRight": 8,
-                          "paddingTop": 7,
                         },
                       ],
                     ]
@@ -3596,9 +3741,14 @@ exports[`iOS BpkBannerAlert should render correctly expanded 1`] = `
                           "fontSize": 16,
                           "lineHeight": 16,
                         },
-                        Object {
-                          "color": "rgb(255, 84, 82)",
-                        },
+                        Array [
+                          Object {
+                            "paddingTop": 7,
+                          },
+                          Object {
+                            "color": "rgb(255, 84, 82)",
+                          },
+                        ],
                       ]
                     }
                   >
@@ -3623,6 +3773,7 @@ exports[`iOS BpkBannerAlert should render correctly expanded 1`] = `
                           "flex": 1,
                           "flexGrow": 1,
                           "paddingLeft": 4,
+                          "paddingTop": 6,
                         },
                       ]
                     }
@@ -3646,9 +3797,14 @@ exports[`iOS BpkBannerAlert should render correctly expanded 1`] = `
                           "fontSize": 16,
                           "lineHeight": 16,
                         },
-                        Object {
-                          "color": "rgb(82, 76, 97)",
-                        },
+                        Array [
+                          Object {
+                            "paddingTop": 7,
+                          },
+                          Object {
+                            "color": "rgb(82, 76, 97)",
+                          },
+                        ],
                       ]
                     }
                   >
@@ -3828,7 +3984,6 @@ exports[`iOS BpkBannerAlert should render correctly long text 1`] = `
                           "paddingBottom": 4,
                           "paddingLeft": 8,
                           "paddingRight": 8,
-                          "paddingTop": 7,
                         },
                       ],
                     ]
@@ -3851,9 +4006,14 @@ exports[`iOS BpkBannerAlert should render correctly long text 1`] = `
                           "fontSize": 16,
                           "lineHeight": 16,
                         },
-                        Object {
-                          "color": "rgb(129, 123, 143)",
-                        },
+                        Array [
+                          Object {
+                            "paddingTop": 7,
+                          },
+                          Object {
+                            "color": "rgb(129, 123, 143)",
+                          },
+                        ],
                       ]
                     }
                   >
@@ -3878,6 +4038,7 @@ exports[`iOS BpkBannerAlert should render correctly long text 1`] = `
                           "flex": 1,
                           "flexGrow": 1,
                           "paddingLeft": 4,
+                          "paddingTop": 6,
                         },
                       ]
                     }
@@ -3901,9 +4062,14 @@ exports[`iOS BpkBannerAlert should render correctly long text 1`] = `
                           "fontSize": 16,
                           "lineHeight": 16,
                         },
-                        Object {
-                          "color": "rgb(82, 76, 97)",
-                        },
+                        Array [
+                          Object {
+                            "paddingTop": 7,
+                          },
+                          Object {
+                            "color": "rgb(82, 76, 97)",
+                          },
+                        ],
                       ]
                     }
                   >
@@ -4078,7 +4244,6 @@ exports[`iOS BpkBannerAlert should render correctly long text 1`] = `
                           "paddingBottom": 4,
                           "paddingLeft": 8,
                           "paddingRight": 8,
-                          "paddingTop": 7,
                         },
                       ],
                     ]
@@ -4101,9 +4266,14 @@ exports[`iOS BpkBannerAlert should render correctly long text 1`] = `
                           "fontSize": 16,
                           "lineHeight": 16,
                         },
-                        Object {
-                          "color": "rgb(0, 215, 117)",
-                        },
+                        Array [
+                          Object {
+                            "paddingTop": 7,
+                          },
+                          Object {
+                            "color": "rgb(0, 215, 117)",
+                          },
+                        ],
                       ]
                     }
                   >
@@ -4128,6 +4298,7 @@ exports[`iOS BpkBannerAlert should render correctly long text 1`] = `
                           "flex": 1,
                           "flexGrow": 1,
                           "paddingLeft": 4,
+                          "paddingTop": 6,
                         },
                       ]
                     }
@@ -4151,9 +4322,14 @@ exports[`iOS BpkBannerAlert should render correctly long text 1`] = `
                           "fontSize": 16,
                           "lineHeight": 16,
                         },
-                        Object {
-                          "color": "rgb(82, 76, 97)",
-                        },
+                        Array [
+                          Object {
+                            "paddingTop": 7,
+                          },
+                          Object {
+                            "color": "rgb(82, 76, 97)",
+                          },
+                        ],
                       ]
                     }
                   >
@@ -4328,7 +4504,6 @@ exports[`iOS BpkBannerAlert should render correctly long text 1`] = `
                           "paddingBottom": 4,
                           "paddingLeft": 8,
                           "paddingRight": 8,
-                          "paddingTop": 7,
                         },
                       ],
                     ]
@@ -4351,9 +4526,14 @@ exports[`iOS BpkBannerAlert should render correctly long text 1`] = `
                           "fontSize": 16,
                           "lineHeight": 16,
                         },
-                        Object {
-                          "color": "rgb(255, 187, 0)",
-                        },
+                        Array [
+                          Object {
+                            "paddingTop": 7,
+                          },
+                          Object {
+                            "color": "rgb(255, 187, 0)",
+                          },
+                        ],
                       ]
                     }
                   >
@@ -4378,6 +4558,7 @@ exports[`iOS BpkBannerAlert should render correctly long text 1`] = `
                           "flex": 1,
                           "flexGrow": 1,
                           "paddingLeft": 4,
+                          "paddingTop": 6,
                         },
                       ]
                     }
@@ -4401,9 +4582,14 @@ exports[`iOS BpkBannerAlert should render correctly long text 1`] = `
                           "fontSize": 16,
                           "lineHeight": 16,
                         },
-                        Object {
-                          "color": "rgb(82, 76, 97)",
-                        },
+                        Array [
+                          Object {
+                            "paddingTop": 7,
+                          },
+                          Object {
+                            "color": "rgb(82, 76, 97)",
+                          },
+                        ],
                       ]
                     }
                   >
@@ -4578,7 +4764,6 @@ exports[`iOS BpkBannerAlert should render correctly long text 1`] = `
                           "paddingBottom": 4,
                           "paddingLeft": 8,
                           "paddingRight": 8,
-                          "paddingTop": 7,
                         },
                       ],
                     ]
@@ -4601,9 +4786,14 @@ exports[`iOS BpkBannerAlert should render correctly long text 1`] = `
                           "fontSize": 16,
                           "lineHeight": 16,
                         },
-                        Object {
-                          "color": "rgb(255, 84, 82)",
-                        },
+                        Array [
+                          Object {
+                            "paddingTop": 7,
+                          },
+                          Object {
+                            "color": "rgb(255, 84, 82)",
+                          },
+                        ],
                       ]
                     }
                   >
@@ -4628,6 +4818,7 @@ exports[`iOS BpkBannerAlert should render correctly long text 1`] = `
                           "flex": 1,
                           "flexGrow": 1,
                           "paddingLeft": 4,
+                          "paddingTop": 6,
                         },
                       ]
                     }
@@ -4651,9 +4842,14 @@ exports[`iOS BpkBannerAlert should render correctly long text 1`] = `
                           "fontSize": 16,
                           "lineHeight": 16,
                         },
-                        Object {
-                          "color": "rgb(82, 76, 97)",
-                        },
+                        Array [
+                          Object {
+                            "paddingTop": 7,
+                          },
+                          Object {
+                            "color": "rgb(82, 76, 97)",
+                          },
+                        ],
                       ]
                     }
                   >

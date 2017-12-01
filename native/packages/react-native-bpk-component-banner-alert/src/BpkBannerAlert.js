@@ -35,6 +35,7 @@ import {
   colorGreen500,
   colorRed500,
   colorYellow500,
+  lineHeightSm,
   spacingBase,
   spacingMd,
   spacingSm,
@@ -71,7 +72,6 @@ const styles = StyleSheet.create({
     paddingBottom: spacingSm,
     paddingLeft: spacingMd,
     paddingRight: spacingMd,
-    // paddingTop: 5,
   },
   bannerContainerPaddedDismissable: {
     paddingRight: 0,
@@ -105,10 +105,10 @@ const styles = StyleSheet.create({
     flexGrow: 1,
     paddingLeft: spacingSm,
     color: colorGray700,
-    paddingTop: spacingSm + borderSizeSm,
+    paddingTop: ((spacingXl - (2 * borderSizeSm)) - lineHeightSm) / 2,
   },
   icon: {
-    paddingTop: spacingMd - borderSizeSm,
+    paddingTop: ((spacingXl - (2 * borderSizeSm)) - spacingBase) / 2,
   },
   iconSuccess: {
     color: colorGreen500,
@@ -123,7 +123,7 @@ const styles = StyleSheet.create({
     color: colorGray500,
   },
   button: {
-    paddingTop: spacingMd - borderSizeSm,
+    paddingTop: ((spacingXl - (2 * borderSizeSm)) - spacingBase) / 2,
   },
   buttonExpand: {
     color: colorGray700,
