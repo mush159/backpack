@@ -29,7 +29,9 @@ const findReplace = (files, findRegex, replaceString) => {
       if (err) {
         return console.log(err);
       }
-      const result = data.split(findRegex).join(replaceString);
+      const splitFile = data.split(findRegex);
+      if (splitFile.length === 1) { return null; }
+      const result = splitFile.join(replaceString);
 
       fs.writeFile(f, result, 'utf8', (err2) => {
         if (err2) return console.log(err2);
@@ -107,11 +109,11 @@ packageFiles.forEach((pf) => {
   checkBpkDependencies(pf, bpkPackageVersions);
 });
 
-if (process.argv.includes('--fix') || process.argv.includes('-f')) {
+if (errors.length === 0) {
+  console.log('All good.  👍');
+} else if (process.argv.includes('--fix') || process.argv.includes('-f')) {
   fixDependencyErrors(packageFiles);
   console.log('All fixed.  👍');
-} else if (errors.length === 0) {
-  console.log('All good.  👍');
 } else {
   console.log('Some Backpack cross dependencies are outdated  😱');
   console.log('');
