@@ -71,7 +71,7 @@ const styles = StyleSheet.create({
     paddingBottom: spacingSm,
     paddingLeft: spacingMd,
     paddingRight: spacingMd,
-    paddingTop: ((spacingXl - (2 * borderSizeSm)) - spacingBase) / 2,
+    // paddingTop: 5,
   },
   bannerContainerPaddedDismissable: {
     paddingRight: 0,
@@ -81,7 +81,6 @@ const styles = StyleSheet.create({
     width: ((2 * spacingMd) + spacingBase),
     display: 'flex',
     flexDirection: 'row',
-    paddingTop: ((spacingXl - (2 * borderSizeSm)) - spacingBase) / 2,
     justifyContent: 'center',
   },
   expandedChildContainer: {
@@ -106,6 +105,10 @@ const styles = StyleSheet.create({
     flexGrow: 1,
     paddingLeft: spacingSm,
     color: colorGray700,
+    paddingTop: spacingSm + borderSizeSm,
+  },
+  icon: {
+    paddingTop: spacingMd - borderSizeSm,
   },
   iconSuccess: {
     color: colorGreen500,
@@ -118,6 +121,9 @@ const styles = StyleSheet.create({
   },
   iconNeutral: {
     color: colorGray500,
+  },
+  button: {
+    paddingTop: spacingMd - borderSizeSm,
   },
   buttonExpand: {
     color: colorGray700,
@@ -180,14 +186,14 @@ const BpkBannerAlert = (props) => {
   const banner = (
     <View style={[contentPaddedStyle]}>
       <BpkIcon
-        style={iconStyle}
+        style={[styles.icon, iconStyle]}
         icon={iconSource}
         small
       />
       <BpkText textStyle="sm" style={styles.text}>{message}</BpkText>
       {expandable && (
         <BpkIcon
-          style={styles.buttonExpand}
+          style={[styles.button, styles.buttonExpand]}
           icon={expanded ? 'chevron-up' : 'chevron-down'}
           small
         />
@@ -226,7 +232,7 @@ const BpkBannerAlert = (props) => {
           >
             <View>
               <BpkIcon
-                style={styles.buttonClose}
+                style={[styles.button, styles.buttonClose]}
                 icon="close"
                 small
               />

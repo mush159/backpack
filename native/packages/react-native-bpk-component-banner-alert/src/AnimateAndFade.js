@@ -40,13 +40,9 @@ class AnimateAndFade extends Component {
     this.animate = this.animate.bind(this);
   }
 
-  // It may look like a hack, but it's a feature, baby. It's Zed's. Zed's dead, baby. Zed's dead.
-  // see https://stanko.github.io/react-rerender-in-component-did-mount/
   componentDidMount() {
     requestAnimationFrame(() => {
-      requestAnimationFrame(() => {
-        this.animate(true);
-      });
+      this.animate(true);
     });
   }
 
