@@ -23,35 +23,41 @@ const { execSync } = require('child_process');
 
 const errors = [];
 
-const findReplace = (files, findRegex, replaceString) => {
-  files.forEach((f) => {
-    fs.readFile(f, 'utf8', (err, data) => {
-      if (err) {
-        return console.log(err);
-      }
-      const splitFile = data.split(findRegex);
-      if (splitFile.length === 1) { return null; }
-      const result = splitFile.join(replaceString);
-
-      fs.writeFile(f, result, 'utf8', (err2) => {
-        if (err2) return console.log(err2);
+const findReplace = (file, findReplaces) => {
+  fs.readFile(file, 'utf8', (err, data) => {
+    if (err) {
+      return console.log(err);
+    }
+    let result = data;
+    findReplaces.forEach((fr) => {
+      const splitFile = result.split(fr.find);
+      if (splitFile.length === 1) {
         return null;
-      });
+      }
+      result = splitFile.join(fr.replace);
       return null;
     });
-  },
-  );
+
+    fs.writeFile(file, result, 'utf8', (err2) => {
+      if (err2) return console.log(err2);
+      return null;
+    });
+  });
 };
 
 const fixDependencyErrors = (packageFiles) => {
+  const findReplaces = [];
   errors.forEach((error) => {
-    findReplace(
-      packageFiles,
-      new RegExp(`\\"${error.dependency}\\"\\:[ ]+\\"\\^[0-9]+\\.[0-9]+\\.[0-9]+\\"`, 'g'),
-      `"${error.dependency}": "${error.correctDependencyVersion}"`,
-    );
+    findReplaces.push({
+      find: new RegExp(`\\"${error.dependency}\\"\\:[ ]+\\"\\^[0-9]+\\.[0-9]+\\.[0-9]+\\"`, 'g'),
+      replace: `"${error.dependency}": "${error.correctDependencyVersion}"`,
+    });
     // eslint-disable-next-line max-len
     console.log(`${error.dependency} dependency upgraded from ${error.dependencyVersion} to ${error.correctDependencyVersion}`);
+  });
+
+  packageFiles.forEach((file) => {
+    findReplace(file, findReplaces);
   });
 };
 
