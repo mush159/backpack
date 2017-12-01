@@ -23,14 +23,45 @@ const { execSync } = require('child_process');
 
 const errors = [];
 
+const findReplace = (files, findRegex, replaceString) => {
+  files.forEach((f) => {
+    fs.readFile(f, 'utf8', (err, data) => {
+      if (err) {
+        return console.log(err);
+      }
+      const result = data.split(findRegex).join(replaceString);
+
+      fs.writeFile(f, result, 'utf8', (err2) => {
+        if (err2) return console.log(err2);
+        return null;
+      });
+      return null;
+    });
+  },
+  );
+};
+
+const fixDependencyErrors = (packageFiles) => {
+  errors.forEach((error) => {
+    findReplace(
+      packageFiles,
+      new RegExp(`\\"${error.dependency}\\"\\:[ ]+\\"\\^[0-9]+\\.[0-9]+\\.[0-9]+\\"`),
+      `"${error.dependency}": "${error.correctDependencyVersion}"`,
+    );
+    // eslint-disable-next-line max-len
+    console.log(`${error.dependency} dependency upgraded from ${error.dependencyVersion} to ${error.correctDependencyVersion}`);
+  });
+};
+
 const checkBpkDependencyList = (dependencies, correctVersions, packageName) => {
   Object.keys(dependencies).forEach((dependency) => {
     if (Object.keys(correctVersions).indexOf(dependency) !== -1) {
       const dependencyVersion = dependencies[dependency];
       const correctDependencyVersion = `^${correctVersions[dependency]}`;
       if (dependencyVersion !== correctDependencyVersion) {
-        // eslint-disable-next-line max-len
-        errors.push(`${packageName} depends on ${dependency} ${dependencyVersion}, it should be ${correctDependencyVersion}`);
+        errors.push({
+          packageName, dependency, dependencyVersion, correctDependencyVersion,
+        });
       }
     }
   });
@@ -68,21 +99,26 @@ const getBpkPackageVersions = packageFiles => packageFiles.reduce((acc, pkg) => 
 console.log('Checking Backpack cross dependencies...');
 console.log('');
 
-const packageFiles = execSync('find . -name package.json | grep -v node_modules').toString().split('\n');
+let packageFiles = execSync('find . -name package.json | grep -v node_modules').toString().split('\n');
+packageFiles = packageFiles.filter(s => s !== '');
 const bpkPackageVersions = getBpkPackageVersions(packageFiles);
 
 packageFiles.forEach((pf) => {
-  if (pf !== '') {
-    checkBpkDependencies(pf, bpkPackageVersions);
-  }
+  checkBpkDependencies(pf, bpkPackageVersions);
 });
 
-if (errors.length === 0) {
+if (process.argv.includes('--fix') || process.argv.includes('-f')) {
+  fixDependencyErrors(packageFiles);
+  console.log('All fixed.  👍');
+} else if (errors.length === 0) {
   console.log('All good.  👍');
 } else {
   console.log('Some Backpack cross dependencies are outdated  😱');
   console.log('');
-  errors.forEach((error) => { console.log(`${error}`); });
+  errors.forEach((error) => {
+    // eslint-disable-next-line max-len
+    console.log(`${error.packageName} depends on ${error.dependency} ${error.dependencyVersion}, it should be ${error.correctDependencyVersion}`);
+  });
   console.log('');
   process.exit(1);
 }
