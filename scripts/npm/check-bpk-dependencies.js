@@ -42,6 +42,7 @@ const findReplace = (file, findReplaces) => {
       if (err2) return console.log(err2);
       return null;
     });
+    return null;
   });
 };
 
