@@ -71,7 +71,7 @@ const styles = StyleSheet.create({
     paddingBottom: spacingSm,
     paddingLeft: spacingMd,
     paddingRight: spacingMd,
-    paddingTop: spacingSm,
+    paddingTop: ((spacingXl - (2 * borderSizeSm)) - spacingBase) / 2,
   },
   bannerContainerPaddedDismissable: {
     paddingRight: 0,
@@ -81,7 +81,7 @@ const styles = StyleSheet.create({
     width: ((2 * spacingMd) + spacingBase),
     display: 'flex',
     flexDirection: 'row',
-    paddingTop: spacingSm,
+    paddingTop: ((spacingXl - (2 * borderSizeSm)) - spacingBase) / 2,
     justifyContent: 'center',
   },
   expandedChildContainer: {
