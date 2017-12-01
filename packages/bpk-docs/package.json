@@ -69,7 +69,7 @@
     "bpk-tokens": "^26.6.0",
     "prop-types": "^15.5.8",
     "react": "^15.0.0",
-    "react-native-bpk-component-banner-alert": "^1.1.6",
+    "react-native-bpk-component-banner-alert": "^1.1.12",
     "react-native-bpk-component-button": "^4.2.9",
     "react-native-bpk-component-card": "^1.2.2",
     "react-native-bpk-component-horizontal-nav": "^2.0.4",
