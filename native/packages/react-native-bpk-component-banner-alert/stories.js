@@ -167,7 +167,7 @@ storiesOf('BpkBannerAlert', module)
         style={styles.bannerAlert}
         type={ALERT_TYPES.WARN}
         message="Warn alert with dismiss option."
-        dismissButonLabel="Dismiss"
+        dismissButtonLabel="Dismiss"
       />
       <ExpandableBannerAlert
         style={styles.bannerAlert}
@@ -212,25 +212,25 @@ storiesOf('BpkBannerAlert', module)
         style={styles.bannerAlert}
         type={ALERT_TYPES.NEUTRAL}
         message="Neutral alert with dismiss option."
-        dismissButonLabel="Dismiss"
+        dismissButtonLabel="Dismiss"
       />
       <DismissableBannerAlert
         style={styles.bannerAlert}
         type={ALERT_TYPES.SUCCESS}
         message="Successful alert with dismiss option."
-        dismissButonLabel="Dismiss"
+        dismissButtonLabel="Dismiss"
       />
       <DismissableBannerAlert
         style={styles.bannerAlert}
         type={ALERT_TYPES.WARN}
         message="Warn alert with dismiss option."
-        dismissButonLabel="Dismiss"
+        dismissButtonLabel="Dismiss"
       />
       <DismissableBannerAlert
         style={styles.bannerAlert}
         type={ALERT_TYPES.ERROR}
         message="Error alert with dismiss option."
-        dismissButonLabel="Dismiss"
+        dismissButtonLabel="Dismiss"
       />
     </View>
   ))

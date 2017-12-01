@@ -158,7 +158,7 @@ const BpkBannerAlert = (props) => {
     onToggleExpanded,
     dismissable,
     expanded,
-    dismissButonLabel,
+    dismissButtonLabel,
     toggleExpandedButtonLabel,
     show,
     animateOnEnter,
@@ -221,7 +221,7 @@ const BpkBannerAlert = (props) => {
           <BpkTouchableOverlay
             accessibilityComponentType="button"
             onPress={onDismiss}
-            accessibilityLabel={dismissButonLabel}
+            accessibilityLabel={dismissButtonLabel}
             style={styles.closeButtonContainer}
           >
             <View>
@@ -253,7 +253,7 @@ BpkBannerAlert.propTypes = {
   animateOnLeave: PropTypes.bool,
   onToggleExpanded: PropTypes.func,
   onDismiss: PropTypes.func,
-  dismissButonLabel: PropTypes.string,
+  dismissButtonLabel: PropTypes.string,
   toggleExpandedButtonLabel: PropTypes.string,
 };
 
@@ -266,7 +266,7 @@ BpkBannerAlert.defaultProps = {
   animateOnLeave: false,
   onToggleExpanded: null,
   onDismiss: null,
-  dismissButonLabel: null,
+  dismissButtonLabel: null,
   toggleExpandedButtonLabel: null,
 };
 

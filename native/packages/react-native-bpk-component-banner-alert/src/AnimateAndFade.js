@@ -17,22 +17,13 @@
  */
 
 import {
-  Platform,
   Animated,
   ViewPropTypes,
 } from 'react-native';
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import BpkAnimateHeight from 'react-native-bpk-component-animate-height';
-
-const tokens = Platform.select({
-  ios: () => require('bpk-tokens/tokens/ios/base.react.native.common.js'), // eslint-disable-line global-require
-  android: () => require('bpk-tokens/tokens/android/base.react.native.common.js'), // eslint-disable-line global-require
-})();
-
-const {
-  animationDurationSm,
-} = tokens;
+import { animationDurationSm } from 'bpk-tokens/tokens/base.react.native';
 
 const fadeDuration = parseInt(animationDurationSm, 10);
 const animateHeightDuration = parseInt(animationDurationSm, 10);

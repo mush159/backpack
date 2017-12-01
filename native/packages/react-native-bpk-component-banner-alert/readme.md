@@ -63,7 +63,7 @@ export default class App extends Component {
           style={styles.bannerAlert}
           type={ALERT_TYPES.WARN}
           message={translationHelper.translate('WARN_MESSAGE')}
-          dismissButonLabel="Dismiss"
+          dismissButtonLabel="Dismiss"
           onDismiss={this.onDismiss}
           dismissable
           show={this.state.showDismissable}
@@ -98,7 +98,7 @@ export default class App extends Component {
 | animateOnLeave            | bool               | no       | false         |
 | children                  | node               | no       | null          |
 | dismissable               | bool               | no       | false         |
-| dismissButonLabel         | String             | no       | null          |
+| dismissButtonLabel         | String             | no       | null          |
 | expanded                  | bool               | no       | false         |
 | onDismiss                 | func               | no       | null          |
 | onToggleExpanded          | func               | no       | null          |
