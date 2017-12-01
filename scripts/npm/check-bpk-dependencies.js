@@ -45,7 +45,7 @@ const fixDependencyErrors = (packageFiles) => {
   errors.forEach((error) => {
     findReplace(
       packageFiles,
-      new RegExp(`\\"${error.dependency}\\"\\:[ ]+\\"\\^[0-9]+\\.[0-9]+\\.[0-9]+\\"`),
+      new RegExp(`\\"${error.dependency}\\"\\:[ ]+\\"\\^[0-9]+\\.[0-9]+\\.[0-9]+\\"`, 'g'),
       `"${error.dependency}": "${error.correctDependencyVersion}"`,
     );
     // eslint-disable-next-line max-len
